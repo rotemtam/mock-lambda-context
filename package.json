@@ -1,0 +1,30 @@
+{
+  "name": "mock-lambda-context",
+  "version": "0.0.1",
+  "description": "a mock lambda context object using sinon",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '**/**.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotemtam/mock-lambda-context.git"
+  },
+  "keywords": [
+    "aws-lambda",
+    "sinon",
+    "unit-testing"
+  ],
+  "author": "Rotem Tamir <rotemtamir@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rotemtam/mock-lambda-context/issues"
+  },
+  "homepage": "https://github.com/rotemtam/mock-lambda-context#readme",
+  "dependencies": {
+    "sinon": "^1.17.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
